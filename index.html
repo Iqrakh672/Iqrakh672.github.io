@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0a1f1153d8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+      <div class="container">
+        <nav>
+            
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about ">About</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p> Web Developer</p>
+            <h1>Hi, I'm <span> Iqra </span> Khan <br>From India</Img></h1>
+        </div>
+      </div>  
+    </div>
+    <!-- -----------------about------- -->
+    <div id="about">
+        <div class="container">
+            <div class="">
+                <!-- <div class="about-col-1">
+                    <img src="images/user.png">
+                </div> -->
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p> Recent computer science graduate with a passion for software engineering and web development. Proven ability to learn new technologies quickly and apply them to real-world problems. Currently working as a Front-end Developer in Trufe Tech, where I use my front-end Knowledge to design responsive website. 
+
+
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span></li>
+                            <li> <span>Html</span></li>
+                            <li><span>Css</span></li>
+                            <li><span>Python</span></li>
+                            <li><span>Javascript</span></li>
+                            <li><span>Wordpress</span></li>
+                            <li><span>Django</span></li>
+                            <li><span>MS-SQL</span></li>
+                            <li><span>Tailwind </span></li>
+                            <li><span>React</span></li>
+                            <li><span>Java</span><br> &nbsp;&nbsp;&nbsp;Onging course</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li  class="exp-heading"><span>08/2024 - Present</span><br>Front-End Developer at Trufe Tech Bhopal.</li>
+                            <li ><span class="exp-heading">12/2022-05/2023</span>
+                                <div  class="exp-heading">Internship  at Afucent Technologies(Startup).</div>
+                            <div>
+                           <ul >
+                            <li>  Provided website development using WordPress.</li>
+                            <li>  Designed front-end.</li>
+                            <li> Tested and Monitored web pages, plugins and functionality for continuous improvements of websites and social media accounts
+                            </li>
+                           </ul>
+                           
+                            
+                            </div>
+                            
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2024</span><br>B.tech in CSE <br>
+                                 8.01 CGPA</li>
+                            <li><span>2020</span><br>12th From kendriya Vidyalaya no.1 Bhopal. <br>scored 80% 
+                            </li>
+                            <li><span> 2018 </span><br>10th From kendriya vidyalaya no.1 Bhopal. <br>80%</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- =====================PROJECTS=============================== -->
+    <div id="Services">
+        <div class="container">
+        <h1 class ="sub-title"> My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code" style="color: #f5f5f5;"></i>
+                <h2>Web Design </h2>
+                <p> Design website using wordpress and react technologies </p>
+                <a href="#">Learn More</a>
+            </div>
+          
+            <div>
+                <i class="fa-solid fa-crop-simple" style="color: #f7f7f8;"></i>
+                <h2>UI/UX designing </h2>
+                <p>Provide some designs for the web applications </p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- portfolio -->
+    <div id ="portfolio">
+        <div class ="container">
+            <h1 class="sub-title">My Project </h1>
+            <div class="project-list">
+                <div class="project">
+                    <div>
+                        <h1>Note Finder App</h1>
+                        <p>	A desktop GUI app with a Python backend. 
+                    	It helps to search for a particular word, line or phrase in a document or in a folder consisting of many documents. It provides us with the line number or the position where the searched text is present.
+                            
+                        </p>
+                    </div>
+                    
+                </div>
+                <div class="project">
+                    <div>
+                        <h1>Employee Management System</h1>
+                        <p> 	A desktop GUI app with a SQL database backend. 
+                            	It stores the employees’ information, adds information, updates information, delete information and more.
+                            
+                        </p>
+                    </div>
+                </div>
+                <div class="project">
+                    <div>
+                        <h1>Blog Website</h1>
+                        <p>	A web-based blog platform, allows users to create, edit, and publish blog posts.
+                            	Provide user authentication and authorization for secure access.
+                            Provides a rich text editor for writing posts and ensures a responsive design for optimal viewing on various devices.
+                            
+                        </p>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div>
+                        <h1>Wordpress website </h1>
+                        <p>	Provided website development using WordPress,
+                            	Designed front-end.
+                            	Tested and Monitored web pages, plugins and functionality for continuous improvements of websites and social media accounts.
+                                        
+                        </p>
+                    </div>
+                    
+                </div>
+              
+            </div>
+        </div>
+    </div>
+    <!-- contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left"> 
+                    <h1 class="sub-title">Contact me</h1> 
+                    <p> <i class="fa-solid fa-paper-plane"></i>iqrakh672@gmail.com</p> 
+                    <div class="social-icon">
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <div>
+                        <a href="images/iqrakhan_resume.pdf"  download class="btn btn2">Download resume</a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder= "your name" required>
+                        <input type="email" name="email" placeholder="your email" required >
+                        <textarea name="Message" rows="10" placeholder="your message"></textarea>
+                        <button type="submit" class="btn btn2"> Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @Iqra.</p>
+        </div>
+    </div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        // function opentab(tabname){
+        //     for(let tablink of tablinks){
+        //         tablink.classList.remove("active-link") // remove the active classs name
+        //     }
+        //     for(let tabcontent of tabcontents){
+        //         tabcontent.classList.remove("active-tab") // remove the active classs name
+        //     }
+
+        // }
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+           event.currentTarget.classList.add("active-link");
+           document.getElementById(tabname).classList.add("active-tab");
+        
+
+        }
+    </script>
+    <script>
+
+
+
+        var sidemenu = document.getElementById("sidemenu");
+       
+        function openmenu() {
+       sidemenu.style.right="0";
+    }
+    
+    function closemenu() {
+        sidemenu.style.right="-200px";
+    }
+    </script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzMQvmcY8Shv84qXyKPKDBh_Ev2ah4tTPA5Khn6Aze4dFAotPSCGWtP4GF6nPP5Ny-k2Q/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML="Message sent successfully"
+            setTimeout(
+                function(){
+                    msg.innerHTML=""
+                },2000
+
+            )
+            form.reset()
+        } )
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  
+
+</body>
+</html>
